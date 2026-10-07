@@ -1,0 +1,17 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Production build
+dist/
+**/dist/
+
+# Environment and sensitive secrets
+.env
+**/.env
+.env.local
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
